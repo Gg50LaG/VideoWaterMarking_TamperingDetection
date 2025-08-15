@@ -14,27 +14,27 @@ This project allows you to upload videos, apply watermarks, and verify authentic
 
 ---
 
-## Installation & Setup (Ubuntu 24.04 / WSL)
+# Installation & Setup (Ubuntu 24.04 / WSL)
 
-# Install Required Packages
-sudo apt update
-sudo apt install python3 python3-pip python3-venv
-sudo apt install libgl1
+## Install Required Packages
+- sudo apt update
+- sudo apt install python3 python3-pip python3-venv
+- sudo apt install libgl1
 
-# Clone the Repository
-git clone https://github.com/Gg50LaG/VideoWaterMarking_TamperingDetection.git
-cd VideoWaterMarking_TamperingDetection
+### Clone the Repository
+- git clone https://github.com/Gg50LaG/VideoWaterMarking_TamperingDetection.git
+- cd VideoWaterMarking_TamperingDetection
 
-# Create & Activate Virtual Environment
-python3 -m venv .venv
-source .venv/bin/activate
+### Create & Activate Virtual Environment
+- python3 -m venv .venv
+- source .venv/bin/activate
 
-# Install Python Dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
+### Install Python Dependencies
+- pip install --upgrade pip
+- pip install -r requirements.txt
 
-# Run the Application
-python app.py
+### Run the Application
+- python app.py
 
 
 # If successful, you’ll see:
